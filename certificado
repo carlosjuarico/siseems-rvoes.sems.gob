@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+        @media (max-width: 768px) {
+            .hijo {
+                width: 96% !important;
+            }
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .contenido {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hijo {
+            width: 60%;
+        }
+        img {
+            padding-top: 5%;
+            max-width: 80%;
+            display: block;
+            margin: 0 auto;
+        }
+        .titulo {
+            font-style: normal;
+            font-weight: bold;
+            text-align: center;
+            font-size: 14pt;
+            color: #000000;
+        }
+
+        .encabezado {
+            text-align: center;
+        }
+
+        .parrafosbarras {
+            text-align: center;
+            background-color: #d4be9d;
+        }
+
+        .parrafo {
+            font-style: normal;
+            font-weight: bold;
+            margin-bottom: -8px;
+            font-size: 8pt;
+            font-family: Montserrat;
+            color: #000000;
+        }
+
+        .subtitulo {
+            font-style: normal;
+            font-weight: bold;
+            text-align: center;
+            font-size: 11pt;
+            font-family: Montserrat;
+            color: #000000;
+        
+        }
+        
+        .hijo p {
+            font-weight: bold;
+        }
+
+        p .dato-alumno {
+            font-weight: normal;
+        }
+
+        .leyenda {
+            text-align: center;
+            font-weight: bolder;
+            font-size: 18;
+            color: green;
+        } 
+        
+    </style>
+</head>
+
+<body>
+        <div class="contenido">
+            <div class="hijo">
+                <div>
+                    <img src="http://www.siseems-rvoes.sems.gob.mx/images/logo.jpg" />
+                </div>
+                <div class="encabezado">
+                    <p class="titulo">SISTEMA EDUCATIVO NACIONAL</p>
+                </div>
+                <div class="encabezado">
+                    <p class="parrafo">Subsecretaría de Educación Media Superior</p>
+                </div>
+                <div class="encabezado">
+                    <p class="parrafo">Dirección General de Educación Tecnológica Industrial y de Servicios</p>
+                </div>
+                <div class="encabezado">
+                    <p class="parrafo">Institución Pública Centralizada Federal</p>
+                </div>
+                <div class="encabezado" >
+                    <p class="parrafo">Educación Presencial</p>
+                </div>
+
+                <div class="encabezado">
+                    <p class="subtitulo">Consulta de Certificado Semielectrónico</p>
+                </div>
+
+                <div class=" nocentered">
+                    <p class="parrafosbarras">Datos del estudiante</p>
+                </div>
+                <div>
+                    <p> Nombre: <span class="dato-alumno">JUARICO BACA CARLOS ALBERTO </span></p>
+                    <p>Número de matrícula: <span class="dato-alumno">18317IPR029456</span></p> 
+                </div>
+                <div class=" nocentered">
+                    <p class="parrafosbarras">Datos del plantel o servicio educativo e información</p>   
+                </div>
+                <div>
+                    <p>Institución educativa emisora: <span class="dato-alumno">Dirección General de Educación Tecnológica Industrial y de Servicios</span></p>
+                    <p>Plantel o servicio educativo: <span class="dato-alumno">INSTITUTO TECNOLOGICO BRIDGE</span></p>
+                    <p>Clave Centro de Trabajo: <span class="dato-alumno">15PCT0821T</span></p>
+                </div>
+                <div class=" nocentered">
+                    <p class="parrafosbarras">Trayectoria académica y datos del documento</p> 
+                </div>
+                <div>
+                    <p>Plan de estudios: <span class="dato-alumno">Bachillerato tecnológico con la carrera técnica en Administración</span></p>
+                
+                    <p>RVOE: <span class="dato-alumno">201100000119</span></p>
+                
+                    <p>Clave: <span class="dato-alumno">BTCADAD08</span></p>
+            
+                    <p>Promedio: <span class="dato-alumno">9.2</span></p>
+            
+                    <p>Créditos obtenidos: <span class="dato-alumno">360</span></p>
+                
+                    <p>Tipo de documento: <span class="dato-alumno">Certificado de término semielectrónico</span></p>
+            
+                    <p>Estatus: </p><span class="dato-alumno">Registrado</span>
+            
+                    <p>Fecha de ingreso: <span class="dato-alumno">07 de Febrero de 2017</span></p>
+                
+                    <p>Fecha de egreso: <span class="dato-alumno">08 de Enero de 2020</span></p>
+                </div>
+                <p class="leyenda">Validado</p>
+                
+            </div>
+            
+               
+           
+        </div>
+    
+</body>
+</html>
